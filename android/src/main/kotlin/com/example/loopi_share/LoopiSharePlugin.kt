@@ -68,7 +68,7 @@ class LoopiSharePlugin : FlutterPlugin, MethodCallHandler {
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             setPackage("com.instagram.android")
-            setDataAndType("backgroundAssetUri", image/*)
+            setDataAndType(urlVideo, "image/*")
             putExtra("interactive_asset_uri", uriSticker)
             putExtra("content_url", "something");
             putExtra("top_background_color", "#33FF33")
